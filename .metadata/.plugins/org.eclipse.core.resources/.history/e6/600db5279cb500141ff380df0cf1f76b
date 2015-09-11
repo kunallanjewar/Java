@@ -1,0 +1,56 @@
+
+public class Average {
+	
+	private double Fnum, Snum, Tnum;
+	
+	// Constructor
+	public Average(int Fnum, int Snum, int Tnum){
+		
+		this.Fnum = Fnum;
+		this.Snum = Snum;
+		this.Tnum = Tnum;
+		
+	}
+	
+	//Setter
+	public void setNum1(int Fnum){
+		this.Fnum = Fnum;
+	}
+	
+	public void setNum2(int Snum){
+		this.Snum = Snum;
+	}
+	
+	public void setNum3(int Tnum){
+		this.Tnum = Tnum;
+	}
+	
+	//Getter
+	public double getNum1(){
+		
+		return Fnum;
+	}
+	
+   public double getNum2(){
+		
+		return Snum;
+	}
+   
+   public double getNum3(){
+		
+		return Tnum;
+	}
+   
+   //method
+
+	public double avg() {
+		
+		double avg;
+		
+		avg = (Fnum+Snum+Tnum)/3;
+		return avg;
+		
+	}
+	
+	
+}

@@ -1,0 +1,17 @@
+
+public class Bk {
+
+	private String btitle, bauthor, bpublisher, bcopyrgt;
+	//constructor
+	public Bk (String title, String author, String publisher, String copyrgt)
+	{
+		btitle = title;
+		bauthor = author;
+		bpublisher = publisher;
+		bcopyrgt = copyrgt;
+	}
+	
+	//Setter
+	
+	public void 
+}

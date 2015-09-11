@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+public class Username {
+
+	public static void main(String[] args){
+		
+		String Fname, Lname;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter your name: ");
+		Fname = sc.nextLine();
+		
+		System.out.print("Enter your last name: ");
+		Lname = sc.nextLine();
+		
+	}
+}

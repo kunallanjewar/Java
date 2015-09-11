@@ -1,0 +1,20 @@
+
+public class Main_Avg {
+
+public static void main (String[] args){
+	
+	int Fnum,Snum, Tnum;
+	
+		
+		Average obj = new Average ();
+		
+		System.out.print("Enter the 1st number: );"
+		
+		
+		obj.avg();
+		
+		System.out.println("The average is: "+ (obj.avg()));
+		
+	}
+}
+}

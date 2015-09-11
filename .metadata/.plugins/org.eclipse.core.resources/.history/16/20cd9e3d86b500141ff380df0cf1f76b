@@ -1,0 +1,14 @@
+
+public class Average {
+
+	public avg() {
+		
+int avg = 0;
+		
+		avg = (23+42+39)/3;
+		return avg;
+		
+	}
+	
+	
+}

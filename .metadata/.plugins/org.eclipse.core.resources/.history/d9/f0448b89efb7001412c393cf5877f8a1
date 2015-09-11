@@ -1,0 +1,31 @@
+
+public class Customer {
+	private String Name;
+	private String CustomerNumber;
+	private boolean Active;
+	
+	//constructor
+	public Customer(String Name, String CustomerNumber, boolean Active)
+	{
+		this.Name = Name;
+		this.CustomerNumber = CustomerNumber;
+		this.Active = Active;	
+	}
+	
+	//Setters
+	public void setName(String Name)
+	{
+		this.Name = Name;
+	}
+	
+	public void setCustomerNumber(String CustomerNumber)
+	{
+		this.CustomerNumber = CustomerNumber;
+	}
+	
+	public void setActive(boolean Active)
+	{
+		this.Active = Active;
+	}
+
+}

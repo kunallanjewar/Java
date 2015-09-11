@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+
+public class Main_Avg {
+
+public static void main (String[] args){
+	
+	int Fnum,Snum, Tnum;
+	
+		Scanner sc = new Scanner(System.in);
+		Average obj = new Average (23, 56, 42);
+		
+		System.out.print("Enter the 1st number: ");
+		Fnum = sc.nextInt();
+		
+		System.out.print("Enter the 2nd number: ");
+		Snum = sc.nextInt();
+		
+		System.out.print("Enter the 3rd number: ");
+		Tnum = sc.nextInt();
+		
+		
+		obj.avg();
+		
+		System.out.println("The average is: "+ (obj.avg()));
+		
+	}
+}
+

@@ -1,0 +1,12 @@
+
+public class Main_Avg {
+
+public static void main (String[] args){
+		
+		Average obj = new Average(23, 42, 39 );
+		
+		obj.calculate();
+		
+	}
+}
+}

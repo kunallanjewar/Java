@@ -1,0 +1,16 @@
+
+public class SCustomer extends Customer {
+	
+	double discount1 = 0.01;
+	double discount2 = 0.05;
+	double Amount;
+	
+	public SCustomer(double Amount, String name, String customerNumber, boolean active)
+	{
+		super.(name, customerNumber, active);
+		this.Amount = Amount;
+	}
+	
+	
+
+}

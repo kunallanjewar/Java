@@ -1,0 +1,25 @@
+
+public class Array {
+
+	public static void main(String[] args) {
+		 int[] myList = {1, 2, 3, 4, 5};
+		 
+		// Print all the array elements
+	      for (int i = 0; i < myList.length; i++) {
+	         System.out.println(myList[i] + " ");
+	      }
+	      
+	      // Summing all elements
+	      int total = 0;
+	      for (int i = 0; i < myList.length; i++) {
+	         total += myList[i];
+	      }
+	      System.out.println("Total is " + total);
+	
+	   // Print all the array elements
+	      for (int i = 0; i < myList.length; i++) {
+	         System.out.println(myList[0] + " ");
+	      }
+	}
+
+}

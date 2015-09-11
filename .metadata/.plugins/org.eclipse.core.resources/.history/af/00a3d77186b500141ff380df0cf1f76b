@@ -1,0 +1,24 @@
+
+public class Average {
+	
+	private int Fnum, Snum, Tnum;
+	
+	public Average(int Fnum, int Snum, int Tnum){
+		
+		this.Fnum = Fnum;
+		this.Snum = Snum;
+		this.Tnum = Tnum;
+		
+	}
+
+	public avg() {
+		
+int avg = 0;
+		
+		avg = (23+42+39)/3;
+		return avg;
+		
+	}
+	
+	
+}

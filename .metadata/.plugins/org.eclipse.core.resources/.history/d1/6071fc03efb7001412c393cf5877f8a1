@@ -1,0 +1,12 @@
+
+public class Customer {
+	private String Name;
+	private String CustomerNumber;
+	private boolean Active;
+	
+	public Customer(String Name, String CustomerNumber, boolean Active)
+	{
+		
+	}
+
+}
