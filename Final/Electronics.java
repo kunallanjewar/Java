@@ -14,7 +14,7 @@ public class Electronics
 	} 
 
 	public double Rebate()
-	{
+	{ 
 		return (Price*.1);
 	}
 	public String toString()
