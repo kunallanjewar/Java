@@ -1,2 +1,2 @@
 # Java
-All my old Java programs.
+Java projects I worked on. 
